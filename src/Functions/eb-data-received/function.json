@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "eb-queue-received",
+      "connection": "AzureWebJobsDashboard"
+    },
+    {
+      "type": "table",
+      "name": "outTable",
+      "tableName": "eventBetterData",
+      "connection": "eventbetter_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

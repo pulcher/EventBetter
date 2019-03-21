@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "eventbetter_STORAGE": "DefaultEndpointsProtocol=https;AccountName=eventbetter;AccountKey=6Weei7WzjDluJDIanqFEAwmzr3vCCsHE4lpw2mh5KIp9ARGpWTfwvkoeNfAbtsZI+HdJJs2dza/Bqs3eoQgXQA==",
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "fe336e62-3413-439a-80dd-39d7d6b220aa",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=eventbetter;AccountKey=6Weei7WzjDluJDIanqFEAwmzr3vCCsHE4lpw2mh5KIp9ARGpWTfwvkoeNfAbtsZI+HdJJs2dza/Bqs3eoQgXQA==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=eventbetter;AccountKey=6Weei7WzjDluJDIanqFEAwmzr3vCCsHE4lpw2mh5KIp9ARGpWTfwvkoeNfAbtsZI+HdJJs2dza/Bqs3eoQgXQA==",
+    "WEBSITE_CONTENTSHARE": "eventbetterfunctions8153",
+    "WEBSITE_SITE_NAME": "eventBetterFunctions",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=eventbetter;AccountKey=6Weei7WzjDluJDIanqFEAwmzr3vCCsHE4lpw2mh5KIp9ARGpWTfwvkoeNfAbtsZI+HdJJs2dza/Bqs3eoQgXQA=="
+  }
+}

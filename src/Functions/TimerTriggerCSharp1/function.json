@@ -1,0 +1,26 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "*/10 * * * * *"
+    },
+    {
+      "type": "table",
+      "name": "currentDevices",
+      "tableName": "knownDevices",
+      "take": 50,
+      "connection": "AzureWebJobsDashboard",
+      "direction": "in"
+    },
+    {
+      "type": "queue",
+      "name": "outputQueueItem",
+      "queueName": "eb-queue-poller",
+      "connection": "AzureWebJobsDashboard",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}

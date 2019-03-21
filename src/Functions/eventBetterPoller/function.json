@@ -1,0 +1,26 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "eb-queue-poller",
+      "connection": "AzureWebJobsDashboard"
+    },
+    {
+      "type": "queue",
+      "name": "outputQueueItem",
+      "queueName": "eb-queue-recieved",
+      "connection": "AzureWebJobsDashboard",
+      "direction": "out"
+    },
+    {
+      "type": "queue",
+      "name": "outputCurrentQueueItem",
+      "queueName": "eb-queue-current2",
+      "connection": "AzureWebJobsDashboard",
+      "direction": "out"
+    }
+  ],
+  "disabled": true
+}
